@@ -1,4 +1,7 @@
-## Hi there 👋
+## Libraries
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MHS-20&repo=Choir&show_owner=true&theme=tokyonight)](https://github.com/MHS-20/Choir)
+
 
 <!--
 **MHS-20/MHS-20** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
