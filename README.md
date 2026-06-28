@@ -1,6 +1,6 @@
 ## Libraries
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MHS-20&repo=Choir&show_owner=true&theme=tokyonight)](https://github.com/MHS-20/Choir)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MHS-20&repo=Choir&show_owner=true&theme=default)](https://github.com/MHS-20/Choir)
 
 
 <!--
