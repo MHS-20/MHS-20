@@ -1,5 +1,5 @@
 ## Infrastructure & Tools
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MHS-20&repo=ElkDB&show_owner=false&theme=github_dark_dimmed)](https://github.com/MHS-20/ElkDB)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MHS-20&repo=ElkDB&show_owner=true&theme=github_dark_dimmed)](https://github.com/MHS-20/ElkDB)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MHS-20&repo=ScalarPath&show_owner=true&theme=github_dark_dimmed)](https://github.com/MHS-20/ScalarPath)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MHS-20&repo=Hyperion&show_owner=true&theme=github_dark_dimmed)](https://github.com/MHS-20/Hyperion)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MHS-20&repo=Prism&show_owner=true&theme=github_dark_dimmed)](https://github.com/MHS-20/Prism)
