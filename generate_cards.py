@@ -79,8 +79,6 @@ def svg_for(repo_data, user, repo, show_owner=True):
     name = repo_data.get("name", repo) if repo_data else repo
     desc = repo_data.get("description") if repo_data else None
     lang = repo_data.get("language") if repo_data else None
-    stars = repo_data.get("stargazers_count", 0) if repo_data else 0
-    forks = repo_data.get("forks_count", 0) if repo_data else 0
     lang_color = LANG_COLORS.get(lang, "#8b949e")
 
     title = f"{user}/{name}" if show_owner else name
@@ -114,12 +112,7 @@ def svg_for(repo_data, user, repo, show_owner=True):
     <text x="46" y="35" class="title">{title}</text>
     {desc_svg}
     {lang_block}
-    <!-- star icon -->
-    <path fill="{STAR_COLOR}" transform="translate({CARD_W - 150}, {CARD_H - 26})" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-    <text x="{CARD_W - 130}" y="{CARD_H - 15}" class="meta">{stars}</text>
-    <!-- fork icon -->
-    <path fill="{ICON_COLOR}" transform="translate({CARD_W - 90}, {CARD_H - 26})" d="M5 3.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm0 2.122a2.25 2.25 0 1 0-1.5 0v.878A2.25 2.25 0 0 0 5.75 8.5h1.5v2.128a2.251 2.251 0 1 0 1.5 0V8.5h1.5a2.25 2.25 0 0 0 2.25-2.25v-.878a2.25 2.25 0 1 0-1.5 0v.878a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75Zm6.75-.878a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
-    <text x="{CARD_W - 70}" y="{CARD_H - 15}" class="meta">{forks}</text>
+
   </g>
 </svg>'''
 
