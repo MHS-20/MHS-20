@@ -33,9 +33,9 @@ OUT_DIR = "cards"
 # dimmed theme)
 BG_COLOR = "#22272e"
 BORDER_COLOR = "#444c56"
-TITLE_COLOR = "#2f81f7"
-TEXT_COLOR = "#adbac7"
-ICON_COLOR = "#2f81f7"
+TITLE_COLOR = "#1f6feb"
+TEXT_COLOR = "#d1d5db"
+ICON_COLOR = "#1f6feb"
 STAR_COLOR = "#e3b341"
 
 # Linguist-ish colors for common languages, extend as needed
