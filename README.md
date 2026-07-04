@@ -19,7 +19,6 @@
 [![Squid-Storage](./cards/Squid-Storage.svg)](https://github.com/MHS-20/Squid-Storage)
 [![Camelia](./cards/Camelia.svg)](https://github.com/MHS-20/Camelia)
 [![Poseidon](./cards/Poseidon.svg)](https://github.com/MHS-20/Poseidon)
-[![Zodiac](./cards/Zodiac.svg)](https://github.com/MHS-20/Zodiac)
 
 <br/>
 
