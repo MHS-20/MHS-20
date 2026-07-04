@@ -22,7 +22,8 @@ jobs:
             Astra Choir \
             Squid-Storage Camelia Poseidon Zodiac \
             Raft Kademlia WebSocket \
-            FOOL-Compiler Tape LambdaCalculus ScaLog
+            FOOL-Compiler Tape LambdaCalculus ScaLog \
+            Chip8-emulator NES-emulator SMS-emulator GameBoy-emulator
 
       - name: Commit updated cards
         run: |
