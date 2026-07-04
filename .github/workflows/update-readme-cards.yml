@@ -18,9 +18,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 generate_cards.py MHS-20 \
-            ElkDB ScalarPath Hyperion Prism \
-            Astra Choir \
-            Squid-Storage Camelia Poseidon Zodiac \
+            ElkDB ScalarPath Hyperion \
+            Astra Choir KemuKit \
+            Squid-Storage Camelia Poseidon \
             Raft Kademlia WebSocket \
             FOOL-Compiler Tape LambdaCalculus ScaLog \
             Chip8-emulator NES-emulator SMS-emulator GameBoy-emulator

@@ -1,9 +1,8 @@
-## Infrastructure & Tools
+## Top Pins
 
 [![ElkDB](./cards/ElkDB.svg)](https://github.com/MHS-20/ElkDB)
 [![ScalarPath](./cards/ScalarPath.svg)](https://github.com/MHS-20/ScalarPath)
 [![Hyperion](./cards/Hyperion.svg)](https://github.com/MHS-20/Hyperion)
-[![Prism](./cards/Prism.svg)](https://github.com/MHS-20/Prism)
 
 <br/>
 
@@ -11,6 +10,7 @@
 
 [![Astra](./cards/Astra.svg)](https://github.com/MHS-20/Astra)
 [![Choir](./cards/Choir.svg)](https://github.com/MHS-20/Choir)
+[![KemuKit](./cards/KemuKit.svg)](https://github.com/MHS-20/KemuKit)
 
 <br/>
 
