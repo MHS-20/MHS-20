@@ -1,3 +1,7 @@
+## Thesis
+[![EtcFS](./cards/etcfs.svg)](https://github.com/etcfs/etcfs)
+[![EtcFS-TLA+](./cards/etcfs-tla-specs.svg)](https://github.com/etcfs/etcfs-tla-specs)
+
 ## Top Pins
 
 [![ElkDB](./cards/ElkDB.svg)](https://github.com/MHS-20/ElkDB)
