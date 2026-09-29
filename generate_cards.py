@@ -7,7 +7,11 @@ github-readme-stats' /api/pin endpoint, github_dark_dimmed theme)
 so your profile README never depends on an external service again.
 
 Usage:
-    python3 generate_cards.py USERNAME repo1 repo2 repo3 ...
+    python3 generate_cards.py USERNAME repo1 repo2 owner/repo3 ...
+
+    A bare repo name belongs to USERNAME. An owner/repo argument fetches a
+    repo from another user or organization; its card title keeps the
+    owner/ prefix, while USERNAME's own repos show the bare name.
 
     # with a token to avoid the 60 req/hr anonymous rate limit
     GITHUB_TOKEN=ghp_xxx python3 generate_cards.py USERNAME repo1 repo2 ...
@@ -51,6 +55,12 @@ LANG_COLORS = {
 
 CARD_W = 400
 CARD_H = 120
+
+
+def parse_spec(spec, user):
+    """Split an 'owner/repo' or bare 'repo' argument into (owner, repo)."""
+    owner, sep, repo = spec.partition("/")
+    return (owner, repo) if sep else (user, spec)
 
 
 def fetch_repo(user, repo, token=None):
@@ -123,22 +133,23 @@ def main():
         sys.exit(1)
 
     user = sys.argv[1]
-    repos = sys.argv[2:]
+    repos = [parse_spec(spec, user) for spec in sys.argv[2:]]
     token = os.environ.get("GITHUB_TOKEN")
 
     os.makedirs(OUT_DIR, exist_ok=True)
-    for repo in repos:
-        print(f"fetching {user}/{repo} ...")
-        data = fetch_repo(user, repo, token)
-        svg = svg_for(data, user, repo)
+    for owner, repo in repos:
+        print(f"fetching {owner}/{repo} ...")
+        data = fetch_repo(owner, repo, token)
+        # Case-insensitive: GitHub logins are, and the API may return either.
+        svg = svg_for(data, owner, repo, show_owner=owner.lower() != user.lower())
         path = os.path.join(OUT_DIR, f"{repo}.svg")
         with open(path, "w") as f:
             f.write(svg)
         print(f"  -> {path}")
 
     print("\nDone. Embed with, e.g.:")
-    for repo in repos:
-        print(f'[![{repo}](./{OUT_DIR}/{repo}.svg)](https://github.com/{user}/{repo})')
+    for owner, repo in repos:
+        print(f'[![{repo}](./{OUT_DIR}/{repo}.svg)](https://github.com/{owner}/{repo})')
 
 
 if __name__ == "__main__":

@@ -18,6 +18,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 generate_cards.py MHS-20 \
+            etcfs/etcfs etcfs/etcfs-tla-specs QAttach \
             ElkDB ScalarPath Hyperion \
             Astra Choir KemuKit \
             Squid-Storage Camelia Poseidon \
