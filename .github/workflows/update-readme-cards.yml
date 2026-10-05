@@ -19,10 +19,11 @@ jobs:
         run: |
           python3 generate_cards.py MHS-20 \
             etcfs/etcfs etcfs/etcfs-tla-specs QAttach \
-            ElkDB ScalarPath Hyperion \
-            Astra Choir KemuKit \
+            ElkDB ScalarPath Hyperion DrakeOS \
+            Astra Choir KemuKit Squash \
             Squid-Storage Camelia Poseidon \
             Raft Kademlia WebSocket \
+            TCP-IP SSL-TLS Warden Tunnel \
             FOOL-Compiler Tape LambdaCalculus ScaLog \
             Chip8-emulator NES-emulator SMS-emulator GameBoy-emulator
 

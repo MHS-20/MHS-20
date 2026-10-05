@@ -3,11 +3,14 @@
 [![EtcFS-TLA+](./cards/etcfs-tla-specs.svg)](https://github.com/etcfs/etcfs-tla-specs)
 [![QAttach](./cards/QAttach.svg)](https://github.com/MHS-20/QAttach)
 
+<br/>
+
 ## Top Pins
 
 [![ElkDB](./cards/ElkDB.svg)](https://github.com/MHS-20/ElkDB)
 [![ScalarPath](./cards/ScalarPath.svg)](https://github.com/MHS-20/ScalarPath)
 [![Hyperion](./cards/Hyperion.svg)](https://github.com/MHS-20/Hyperion)
+[![DrakeOS](./cards/DrakeOS.svg)](https://github.com/MHS-20/DrakeOS)
 
 <br/>
 
@@ -16,6 +19,7 @@
 [![Astra](./cards/Astra.svg)](https://github.com/MHS-20/Astra)
 [![Choir](./cards/Choir.svg)](https://github.com/MHS-20/Choir)
 [![KemuKit](./cards/KemuKit.svg)](https://github.com/MHS-20/KemuKit)
+[![Squash](./cards/Squash.svg)](https://github.com/MHS-20/Squash)
 
 <br/>
 
@@ -32,6 +36,15 @@
 [![Raft](./cards/Raft.svg)](https://github.com/MHS-20/Raft)
 [![Kademlia](./cards/Kademlia.svg)](https://github.com/MHS-20/Kademlia)
 [![WebSocket](./cards/WebSocket.svg)](https://github.com/MHS-20/WebSocket)
+
+<br/>
+
+## Reimplementations
+
+[![TCP-IP](./cards/TCP-IP.svg)](https://github.com/MHS-20/TCP-IP)
+[![SSL-TLS](./cards/SSL-TLS.svg)](https://github.com/MHS-20/SSL-TLS)
+[![Warden](./cards/Warden.svg)](https://github.com/MHS-20/Warden)
+[![Tunnel](./cards/Tunnel.svg)](https://github.com/MHS-20/Tunnel)
 
 <br/>
 
