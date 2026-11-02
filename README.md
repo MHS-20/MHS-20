@@ -53,7 +53,6 @@
 [![FOOL-Compiler](./cards/FOOL-Compiler.svg)](https://github.com/MHS-20/FOOL-Compiler)
 [![Tape](./cards/Tape.svg)](https://github.com/MHS-20/Tape)
 [![LambdaCalculus](./cards/LambdaCalculus.svg)](https://github.com/MHS-20/LambdaCalculus)
-[![ScaLog](./cards/ScaLog.svg)](https://github.com/MHS-20/ScaLog)
 
 <br/>
 
